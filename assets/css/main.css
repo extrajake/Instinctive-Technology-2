@@ -34431,6 +34431,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
   -ms-touch-action: pan-Y;
   touch-action: manipulation;
   -moz-backface-visibility: hidden;
+  margin-top:50%;
   /* fix firefox animation glitch */
 }
 
@@ -37618,7 +37619,7 @@ button.section-gray-800:focus {
 
 /* line 2, src/assets/scss/utilities/_borders.scss */
 .border-variant-default {
-  border-color: #053e9a !important;
+  border-color: #2c3138 !important;
 }
 
 /* line 2, src/assets/scss/utilities/_borders.scss */
