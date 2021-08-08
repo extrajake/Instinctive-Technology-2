@@ -101,6 +101,9 @@
   margin-top:35%;
 }
 
+.hubspot-link__container {
+  display: none !important;
+}
 
 /* line 20, node_modules/@fortawesome/fontawesome-free/scss/brands.scss */
 .fab {
