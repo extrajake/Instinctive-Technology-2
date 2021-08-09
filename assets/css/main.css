@@ -105,6 +105,10 @@
   display: none !important;
 }
 
+#aboutus {
+  padding-top:0;
+}
+
 /* line 20, node_modules/@fortawesome/fontawesome-free/scss/brands.scss */
 .fab {
   font-family: 'Font Awesome 5 Brands';
@@ -10874,6 +10878,9 @@ pre code {
   /* line 179, src/assets/scss/bootstrap/_tables.scss */
   .table-responsive-sm > .table-bordered {
     border: 0;
+  }
+  .wolf-head {
+    margin:-100% 0 0 0;
   }
 }
 
@@ -34449,7 +34456,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 }
 
 /* line 28, src/assets/scss/vendor/owl-carousel/_core.scss */
-.owl-carousel .owl-stage-outer {
+.owl-carousel {
   position: relative;
   overflow: hidden;
   /* fix for flashing background */
@@ -44389,6 +44396,15 @@ button.section-gray-800:focus {
   position: relative;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+
+.top-title {
+  position:absolute;
+  margin-top:70%;
+}
+.top-push-down {
+  margin-top:15%;
 }
 
 /* line 11, src/assets/scss/layout/_section.scss */
@@ -54935,6 +54951,9 @@ a:hover, .text-action:hover {
   .font-large {
     font-size: calc(1.625rem + 4.5vw) ;
   }
+  .wolf-head {
+    margin-left:25%;
+  }
 }
 
 /* line 153, src/assets/scss/components/_type.scss */
@@ -56733,6 +56752,10 @@ img.flex-fill {
   /* line 21, src/assets/scss/corporx/_header.scss */
   .navbar-theme-white .navbar-nav .nav-item.dropdown .nav-link {
     color: #5E6278;
+  }
+  .wolf-head {
+    padding:10%;
+    margin: -55% 0px 0px 0;
   }
 }
 
