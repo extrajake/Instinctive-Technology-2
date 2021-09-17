@@ -59,6 +59,11 @@ body {
   overflow-x:hidden;
 }
 
+.btn-mobile {
+  color: #fff;
+  border-color:#fff;
+}
+
 /*******Carousel********/
 
 
@@ -95,7 +100,9 @@ body {
 .dark-grey {
   color: #2c3138;
 }
-
+.wh {
+  color: #ffffff;
+}
 .site-title {
   color:#fff;
   font-family: moret,serif;
@@ -334,7 +341,9 @@ background: linear-gradient(90deg, rgba(5,195,255,1) 0%, rgba(251,226,144,1) 100
   background-clip: padding-box;
   border: 0.0625rem solid #D1D3E0;
 }
-
+.fibre-p {
+  font-size: 1.3rem;
+}
 
 
 /*********************************Apply-page-end***************************************/
@@ -8378,6 +8387,10 @@ legend {
   }
   #slider {
     display:none;
+  }
+  .btn-mobile {
+    color:#333; 
+    border-color:#333;
   }
 }
 
