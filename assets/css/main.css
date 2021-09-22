@@ -174,9 +174,14 @@ body {
   margin-top: -30%;
   margin-right: 30%;
 }
+.careers-section {
+  height: 1750px; 
+}
 
-
-
+.careers-p {
+  top:650px; 
+  z-index: 2;
+}
 
 [type=radio] {
   display: none;
@@ -348,7 +353,7 @@ background: linear-gradient(90deg, rgba(5,195,255,1) 0%, rgba(251,226,144,1) 100
 
 /*********************************Apply-page-end***************************************/
 
-Resources1× 0.5× 0.25×Rerun
+/* Resources1× 0.5× 0.25×Rerun */
 
 /* line 20, node_modules/@fortawesome/fontawesome-free/scss/brands.scss */
 .fab {
@@ -8369,6 +8374,15 @@ legend {
   .wolf-p {
     font-size: 0.7rem;
   }
+  .careers-section {
+    max-height: 1000px;
+  }
+  .careers-p {
+    top:300px;
+  }
+  .fox-head {
+    display:none;
+  }
 }
 
 @media (max-width: 950px) {
@@ -8410,6 +8424,11 @@ legend {
   }
   .network-img {
     margin-top:0;
+  }
+  .careers-p {
+    padding-left: 15%;
+    text-align: center;
+    margin-top: -5%;
   }
   }
 
@@ -15282,8 +15301,8 @@ input[type="button"].btn-block {
   color: #05c3ff;
   border-color: #05c3ff;
   background-color: #05c3ff;
-  -webkit-box-shadow:;
-          box-shadow:;
+  -webkit-box-shadow:0;
+          box-shadow:0;
 }
 
 /* line 39, src/assets/scss/bootstrap/_custom-forms.scss */
@@ -15302,8 +15321,8 @@ input[type="button"].btn-block {
   color: #ffffff;
   background-color: #677ede;
   border-color: #1A2C79;
-  -webkit-box-shadow:;
-          box-shadow:;
+  -webkit-box-shadow:0;
+          box-shadow:0;
 }
 
 /* line 62, src/assets/scss/bootstrap/_custom-forms.scss */
@@ -15365,8 +15384,8 @@ input[type="button"].btn-block {
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
   border-color: #1A2C79;
   background-color: #1A2C79;
-  -webkit-box-shadow:;
-          box-shadow:;
+  -webkit-box-shadow:0;
+          box-shadow:0;
 }
 
 /* line 133, src/assets/scss/bootstrap/_custom-forms.scss */
@@ -57099,8 +57118,8 @@ img.flex-fill {
   .navbar-theme-white .navbar-nav .nav-item.dropdown .nav-link {
     color: #5E6278;
   }
-  .wolf-head, {
-    padding:10%;
+  .wolf-head {
+    padding: 10%;
     margin: -55% 0px 0px 0;
   }
   .fox-head {
