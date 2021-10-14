@@ -350,6 +350,11 @@ background: linear-gradient(90deg, rgba(5,195,255,1) 0%, rgba(251,226,144,1) 100
   font-size: 1.3rem;
 }
 
+.centre {
+  text-align: center;
+  margin: auto;
+}
+
 
 /*********************************Apply-page-end***************************************/
 
@@ -13366,7 +13371,7 @@ fieldset:disabled a.btn {
 
 /* line 72, src/assets/scss/bootstrap/_buttons.scss */
 .btn-outline-secondary {
-  color: #05c3ff;
+  color: rgb(56 191 255);
   border-color: #05c3ff;
 }
 
