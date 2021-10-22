@@ -355,6 +355,14 @@ background: linear-gradient(90deg, rgba(5,195,255,1) 0%, rgba(251,226,144,1) 100
   margin: auto;
 }
 
+.form-t {
+  float:left;
+  color:#fff;
+}
+.form-i {
+  float:left;
+  color:transparent;
+}
 
 /*********************************Apply-page-end***************************************/
 
