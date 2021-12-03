@@ -176,6 +176,13 @@ body {
 }
 .careers-section {
   height: 1750px; 
+  background: url('assets/img/hire-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-size:cover;
+}
+.careers-section-2 {
+  display:none;
 }
 
 .careers-p {
@@ -8430,6 +8437,12 @@ legend {
   .network-img {
     margin-top:10%;
   }
+  .careers-p {
+    display:none;
+  }
+  .careers-section-2 {
+    display:block;
+  }
 }
 @media (max-width: 750px) {
   .akira-img {
@@ -8444,8 +8457,6 @@ legend {
     margin-top: -5%;
   }
   }
-
-
 
 @media (max-width: 450px) {
   .wolf-p {
