@@ -8438,7 +8438,9 @@ legend {
     margin-top:10%;
   }
   .careers-p {
-    display:none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 20px;
   }
   .careers-section-2 {
     display:block;
@@ -8457,6 +8459,7 @@ legend {
     margin-top: -5%;
   }
   }
+
 
 @media (max-width: 450px) {
   .wolf-p {
