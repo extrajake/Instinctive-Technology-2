@@ -57456,6 +57456,13 @@ button.scroll-top:focus {
   }
 }
 
+.services-single {
+  min-height: 350px;
+}
+.services-single:hover {
+  background-color: yellow;
+}
+
 /* line 83, src/assets/scss/corporx/_promo.scss */
 .promo-services-single {
   -webkit-transition: all 0.2s ease;
