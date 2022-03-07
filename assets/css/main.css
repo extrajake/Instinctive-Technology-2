@@ -16000,6 +16000,10 @@ input[type="button"].btn-block {
   padding: 1rem 1rem;
 }
 
+.mobile-logo {
+  max-height:50px;
+}
+
 /* line 28, src/assets/scss/bootstrap/_navbar.scss */
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
