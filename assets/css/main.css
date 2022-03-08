@@ -8438,7 +8438,7 @@ legend {
     margin-top:10%;
   }
   .careers-p {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 20px;
   }
@@ -16182,6 +16182,13 @@ input[type="button"].btn-block {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+  }
+
+  .carousel-control-next-icon {
+    display:none;
+  }
+  .carousel-control-prev-icon {
+    display:none;
   }
   /* line 173, src/assets/scss/bootstrap/_navbar.scss */
   .navbar-expand-md .navbar-nav {
