@@ -103,6 +103,9 @@ body {
 .wh {
   color: #ffffff;
 }
+.w-100{
+  width: 100%;
+}
 .site-title {
   color:#fff;
   font-family: moret,serif;
