@@ -184,6 +184,14 @@ body {
   background-position: center center; 
   background-size:cover;
 }
+
+.hbspt-form {
+  background-color: #fff;
+  border-radius: 20px;
+  padding:20px;
+}
+
+
 .careers-section-2 {
   display:none;
 }
