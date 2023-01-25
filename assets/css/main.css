@@ -53,6 +53,10 @@
   src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 
+.nav-font {
+  font-family: "Open Sans", sans-serif;
+}
+
 /*****Custom CSS****/
 
 body {
@@ -70,7 +74,9 @@ body {
 .carousel-mobile {
   display:none;
 }
-
+.w {
+  color: #fff;
+}
 
 .wolf-logo {
   max-height:50px;
@@ -336,6 +342,12 @@ background: linear-gradient(90deg, rgba(5,195,255,1) 0%, rgba(251,226,144,1) 100
 
 .apply-box {
   margin:15% 0 10% 0;
+}
+.apply-box-referrals {
+  margin:0 0 10% 0;
+}
+.pd-3 {
+  padding-bottom:3rem !important;
 }
 
 .apply-form-1 {
